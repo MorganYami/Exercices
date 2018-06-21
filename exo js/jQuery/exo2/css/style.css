@@ -1,0 +1,99 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 60vw;
+  min-height: 100vh;
+  margin: auto;
+  background-color: white;
+}
+
+nav {
+  background-color: black;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  width: 33.33%;
+  display: block;
+  text-align: center;
+  list-style-type: none;
+  height: 50px;
+  line-height: 50px;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: black;
+}
+/*
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,MAAM,EAAG,CAAC;EACV,OAAO,EAAE,CAAC;EACV,gBAAgB,EAAE,UAAU;CAC/B;;AAED,AAAA,IAAI,CAAA;EACA,MAAM,EAAG,CAAC;EACV,OAAO,EAAE,CAAC;EACV,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,KAAK;EACjB,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,KAAK;CAC1B;;AAED,AAAA,GAAG,CAAA;EACC,gBAAgB,EAAE,KAAK;CAyB1B;;AA1BD,AAEI,GAFD,CAEC,EAAE,CAAA;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;CAmBhC;;AAzBL,AAOQ,GAPL,CAEC,EAAE,CAKE,EAAE,CAAA;EACE,KAAK,EAAE,MAAM;EACb,OAAO,EAAG,KAAK;EACf,UAAU,EAAE,MAAM;EAClB,eAAe,EAAE,IAAI;EACrB,MAAM,EAAE,IAAI;EACZ,WAAW,EAAE,IAAI;CAWpB;;AAxBT,AAcY,GAdT,CAEC,EAAE,CAKE,EAAE,CAOE,CAAC,CAAA;EACG,OAAO,EAAG,KAAK;EACf,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK;CAKf;;AAtBb,AAcY,GAdT,CAEC,EAAE,CAKE,EAAE,CAOE,CAAC,AAIG,MAAO,CAAA;EACH,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAC,KAAK;CACd",
+    "sources": [
+        "style.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
+
+html{
+    margin : 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+body{
+    margin : 0;
+    padding: 0;
+    width: 60vw;
+    min-height: 100vh;
+    margin: auto;
+    background-color: white;
+}
+
+nav{
+    background-color: black;
+    ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        li{
+            width: 33.33%;
+            display : block;
+            text-align: center;
+            list-style-type: none;
+            height: 50px;
+            line-height: 50px;
+            a{
+                display : block;
+                text-decoration: none;
+                color: white;
+                &:hover{
+                    background-color: white;
+                    color:black;
+                }
+            }
+            
+        }
+    }
+}
+*/
